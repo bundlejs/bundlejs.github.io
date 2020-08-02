@@ -13,6 +13,13 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Install Theme
+        run: |
+          cd ./theme/obsidian
+          npm install
+        env:
+          CI: false
+
       - name: Install and Build
         run: |
           npm install
