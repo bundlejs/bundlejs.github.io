@@ -15,7 +15,7 @@ jobs:
 
       - name: Install Theme
         run: |
-          cd ./theme/obsidian
+          cd ./themes/obsidian
           npm install
         env:
           CI: false
