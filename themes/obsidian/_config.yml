@@ -163,7 +163,7 @@ busuanzi:
 
 #Enable social media sharing
 sharejs:
-  enable: true
+  enable: false
   disabled: 'facebook,douban,linkedin,diandian,tencent,google'
 
 # Use codemirror instead of highlight js for better colors
