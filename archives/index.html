@@ -81,8 +81,13 @@
                                     <div class="timeline-content">
                                         <a class="timeline-title" target="_self" href="/2020/08/06/hello-world/">开篇</a>
                                         <p>
-                                            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Qu...
+                                            创建与填写部署公钥创建部署公钥sudo -Hu www ssh-keygen -t rsa
+
+如果创建失败首先需要创建/home/www/.ssh这个文件夹
+
+查看公钥cat /home/www/.ssh/id_rsa.pub
+添加Hook在阿里云code.aliyun.com上的profile&gt;ssh_key里面添加公钥
+初始化git项目文件夹sudo -Hu www git clo...
                                         </p>
                                     </div>
                                 </li>
